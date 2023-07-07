@@ -38,6 +38,8 @@ nav img{
     height: 12vh;
     background-color: #131313;
     color: white;
+    position: fixed;
+    bottom: 0rem;
     /* min-height: 75vh; */
 }
 .bottom input{
@@ -62,7 +64,7 @@ nav img{
     /* min-height: 10vh; */
 }
 .songgif{
-    position: absolute;
+    position: fixed;
     bottom: 1rem;
     left: 2rem;
     color: white;
@@ -88,6 +90,7 @@ nav img{
     background-image: url(women.jpg);
     background-position:right;
     background-size: cover;
+    overflow: overlay;
 }
 .container h1{
 padding: 1rem 3rem;
@@ -176,7 +179,7 @@ color: #131313;
 }
 @media only screen and (min-width:1228px){
     .bottom{
-        height: 15vh;
+        height: 13vh;
     }
     .songslist {
         margin: 3rem 3rem;
